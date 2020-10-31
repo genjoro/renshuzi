@@ -5,10 +5,34 @@ body{
 #wrapper{
   width:850px;
 	margin: 0 auto;
+  display: flex;
+
+
+
+}
+
+#main{
+  width:850px;
+  margin: 0 auto;
+  height: auto;
+
+
+}
+
+#modoru{
+  width: 260px;
+  margin: 0 auto;
+  height: 100px;
+  
+
 }
 
 #hansoku{
   clear: both;
+  display: block;
+
+
+
 
 }
 
@@ -37,13 +61,36 @@ body{
   margin-top: 20px;
   margin-bottom:20px;
   color: #fff;
-  float:left;
+
+
+
 }
 .one{
   background-color: #f00;
 }
 .tow{
   background-color: #00f
+}
+
+.modo{
+
+    text-align: center;
+
+    margin-top: 50px;
+  	color: #fff;
+  	font-weight: bold;
+  	padding: 40px 10px;
+  	cursor: pointer;
+  	-moz-border-radius: 15px;
+  	-webkit-border-radius: 15px;
+  	border-radius: 15px;
+  	background: #666;
+}
+
+#modoru a{
+  text-decoration: none;
+
+
 }
 
 /*@media (max-width:670px) {
